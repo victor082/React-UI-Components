@@ -1,1 +1,19 @@
 /* All styles for your Card Components live here */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1rem 0 3.9rem;
+}
+
+.card-container img {
+    border-radius: .6rem .6rem 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-container .card-content {
+    border: 1px solid rgba(207, 207, 207, 0.5);
+    border-radius: .3rem;
+    padding: 0 1rem;
+}

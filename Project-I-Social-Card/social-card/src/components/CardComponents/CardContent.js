@@ -8,8 +8,10 @@ const CardContent = () => {
         <h3>Get started with React</h3>
         <p>React makes it painless to create interactive Uls. 
         Design simple views for each state in your application.</p>
+        <p><a href="https://www.reactjs.org" target="#_blank">reactjs.org</a></p>
         </div>
     );
 };
+
 
 export default CardContent;
