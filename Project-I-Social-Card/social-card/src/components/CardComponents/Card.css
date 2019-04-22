@@ -17,3 +17,15 @@
     border-radius: .3rem;
     padding: 0 1rem;
 }
+
+.card-container .card-content p {
+    font-size: .9rem;
+}
+
+.card-container .card-content a {
+    text-decoration: none;
+}
+
+.card-container .card-content a:hover {
+    color: rgb(148, 209, 230);
+}

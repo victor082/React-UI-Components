@@ -2,7 +2,7 @@
 .header-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    height: auto;
 }
 
 .header-container img {
@@ -12,17 +12,18 @@
 }
 
 .header-container .header-title {
-    margin-left: .9rem;
+    font-size: .9rem;
+    margin: .9rem 1rem 0 1rem;
+}
+.lambdaSchool {
+    font-weight: bold;
 }
 
-.header-container .header-title h3 {
-    font-size: 1rem;
-}
-
-.header-container .header-title span {
+.header-container .header-content p {
     font-size: .9rem;
 }
 
-.header-container .header-content {
-    margin: 0 1rem 0 3.9rem;
+.tagAndTime {
+    color: rgb(155, 164, 167);
+    font-size: .75rem;
 }

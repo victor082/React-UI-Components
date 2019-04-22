@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 1rem 0 3.9rem;
+}
+
+.footer i {
+    padding-top: 5px;
+    padding-right: 5rem;
+}
