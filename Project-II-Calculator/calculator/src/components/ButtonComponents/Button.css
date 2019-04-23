@@ -6,44 +6,40 @@ button {
 }
 
 .action {
-    width: 200px;
+    width: 66.6%;
 }
 .function {
     background-color: darkred;
 }
 
 .clear-divide .function {
-    width: 100px;
-}
-
-.numbRow1-multiply {
-    width: 300px;
+    width: 33.3%;
 }
 
 .numbRow1 .number {
-    width: 66.6px;
+    width: 22.2%;
 }
 
 .numbRow2 .number {
-    width: 66.6px;
+    width: 22.2%;
 }
 
 .numbRow3 .number {
-    width: 66.6px;
+    width: 22.2%;
 }
 
 .numbRow1 .function {
-    width: 100px;
+    width: 33.3%;
 }
 
 .numbRow2 .function {
-    width: 100px;
+    width: 33.3%;
 }
 
 .numbRow3 .function {
-    width: 100px;
+    width: 33.3%;
 }
 
 .zero-equal .function {
-    width: 100px;
+    width: 33.3%;
 }

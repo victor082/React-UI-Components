@@ -9,7 +9,8 @@
     align-items: center;
     color: white;
     background: rgb(36, 36, 36);
-    padding-right: 1rem;
     font-size: 3rem;
+    padding: 15px 0;
+    padding-right: 1rem;
 }
 
