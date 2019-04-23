@@ -1,0 +1,49 @@
+button {
+    border: 1px solid black;
+    background: none;
+    font-size: 2.5rem;
+    padding: 10px 0;
+}
+
+.action {
+    width: 200px;
+}
+.function {
+    background-color: darkred;
+}
+
+.clear-divide .function {
+    width: 100px;
+}
+
+.numbRow1-multiply {
+    width: 300px;
+}
+
+.numbRow1 .number {
+    width: 66.6px;
+}
+
+.numbRow2 .number {
+    width: 66.6px;
+}
+
+.numbRow3 .number {
+    width: 66.6px;
+}
+
+.numbRow1 .function {
+    width: 100px;
+}
+
+.numbRow2 .function {
+    width: 100px;
+}
+
+.numbRow3 .function {
+    width: 100px;
+}
+
+.zero-equal .function {
+    width: 100px;
+}

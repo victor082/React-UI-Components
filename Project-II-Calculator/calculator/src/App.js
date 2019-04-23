@@ -10,33 +10,37 @@ const App = () => {
     <div className="calc-display">
     <CalculatorDisplay text={'0'}/>
     </div>
-      <div className="calc-action">
+      <div className="clear-divide">
       <ActionButton text={'clear'} buttonStyle={'action'} />
+      <NumberButton text={'÷'} buttonStyle={'function'} />
       </div>
-
-      <div className="number-buttons">
+      
+      <div className="numbRow1">
       <NumberButton text={'7'} buttonStyle={'number'} />
       <NumberButton text={'8'} buttonStyle={'number'} />
       <NumberButton text={'9'} buttonStyle={'number'} />
+      <NumberButton text={'×'} buttonStyle={'function'} />
+      </div>
+
+      <div className="numbRow2">
       <NumberButton text={'4'} buttonStyle={'number'} />
       <NumberButton text={'5'} buttonStyle={'number'} />
       <NumberButton text={'6'} buttonStyle={'number'} />
+      <NumberButton text={'-'} buttonStyle={'function'} />
+      </div>
+
+      <div className="numbRow3">
       <NumberButton text={'1'} buttonStyle={'number'} />
       <NumberButton text={'2'} buttonStyle={'number'} />
       <NumberButton text={'3'} buttonStyle={'number'} />
-      </div>
-
-      <div className="calc-action">
-      <ActionButton text={'0'} buttonStyle={'action'} />
-      </div>
-
-      <div className="function-buttons">
-      <NumberButton text={'÷'} buttonStyle={'function'} />
-      <NumberButton text={'×'} buttonStyle={'function'} />
-      <NumberButton text={'-'} buttonStyle={'function'} />
       <NumberButton text={'+'} buttonStyle={'function'} />
+      </div>
+
+      <div className="zero-equal">
+      <ActionButton text={'0'} buttonStyle={'action'} />
       <NumberButton text={'='} buttonStyle={'function'} />
       </div>
+
     </div>
   );
 };
