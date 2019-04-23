@@ -1,0 +1,51 @@
+.calc-wrapper {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.calc-wrapper .calc-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    font-size: 3rem;
+}
+
+.calc-wrapper button {
+    background: white;
+    border: none;
+}
+
+.calc-wrapper .calc-action {
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 5px 0;
+}
+.calc-wrapper .calc-action .action {
+    font-size: 2rem;
+}
+
+.calc-wrapper .number-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.calc-wrapper .number-buttons .number {
+    border: 1px solid black;
+    font-size: 2rem;
+    width: 33.3%;
+}
+
+
+.calc-wrapper .function {
+    font-size: 2rem;
+    background: darkred;
+    color: white;
+    border: 1px solid black;
+}
